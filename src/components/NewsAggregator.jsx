@@ -23,7 +23,7 @@ export default function NewsAggregator() {
     }
   }, [category]);
 
-  const API_KEY = 'd02c994c62564f61853ade2d7c62dde8';
+  const API_KEY = '0a9b37160e9a4727b094fd62557679ca';
   
   const fetchNews = async () => {
     setLoading(true);
